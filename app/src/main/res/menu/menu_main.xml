@@ -1,0 +1,29 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context=".MainActivity">
+    <item android:id="@+id/action_get"
+          android:title="get"
+          android:orderInCategory="100"
+          app:showAsAction="never"/>
+
+      <item android:id="@+id/action_save"
+            android:title="save"
+            android:orderInCategory="100"
+            app:showAsAction="never"/>
+
+      <item android:id="@+id/action_save_list"
+            android:title="save_list"
+            android:orderInCategory="100"
+            app:showAsAction="never"/>
+
+    <item android:id="@+id/action_display"
+          android:title="display"
+          android:orderInCategory="100"
+          app:showAsAction="never"/>
+
+    <item android:id="@+id/action_1_0000"
+          android:title="add_1_0000"
+          android:orderInCategory="100"
+          app:showAsAction="never"/>
+</menu>
